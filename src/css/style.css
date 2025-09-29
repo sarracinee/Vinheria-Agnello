@@ -30,6 +30,10 @@ ul {
     text-decoration: none;
     color: inherit;
 }
+a:link, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
 #tituloPreto {
     padding: 30px;
     background-color: rgba(218, 211, 211, 0.596);
@@ -39,6 +43,16 @@ ul {
 }
 hr {
     background-color:rgb(102, 54, 102);
+    margin: 30px 10px;
+    border: none;
+    height: 3px;
+    display: block;
+    margin-block-end: 0.5em;
+    margin-block-start: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
 }
 .rodape {
     text-align: center;
@@ -50,9 +64,9 @@ hr {
     margin-top: 30px;
     margin-bottom: 0;
 }
-.imagemPrincipal {
-    width: 10%;
-    max-height: 20px;
+#imagemPrincipal {
+    width: 100%;
+    max-height: 500px;
     object-fit: cover;
 }
 .titulos {
@@ -78,6 +92,57 @@ article {
     padding-bottom: 500px;
 }
 #txtCarrinho {
+    margin: 10px;
+    padding: 10px;
+}
+#subtitulo {
     margin: 50px;
-    padding: 30px;
+    padding: 3px;
+    font-size: 30px;
+    background-color:rgb(245, 238, 228) ;
+    line-height: 0.2px;
+    text-align: center;
+}
+.ftoVinhos {
+    margin: 50px;
+    padding: 40px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.botaoCompra {
+    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90px;
+}
+form{
+    display: block;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contato {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 270px;
+    margin: 50px;
+    margin-left: auto;
+    border: 1px solid #ccc;
+}
+.tabelas {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
 }
