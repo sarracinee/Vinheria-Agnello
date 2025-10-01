@@ -11,7 +11,13 @@ html, body {
     background-color: rgb(245, 238, 228);
     font-family: Arial, Helvetica, sans-serif
 }
-
+/* estilizar a parte dos titulos */
+.titulos {
+    margin: 60px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
 #tituloPreto {
     padding: 30px;
     background-color: rgba(218, 211, 211, 0.596);
@@ -19,6 +25,15 @@ html, body {
     color: rgb(126, 20, 41);
     text-align: center;
 }
+#subtitulo {
+    margin: 50px;
+    padding: 3px;
+    font-size: 30px;
+    background-color: rgb(245, 238, 228);
+    line-height: 0.2px;
+    text-align: center;
+}
+/* configurando a navegação */
 ul {
     margin: 10px;
     padding: auto;
@@ -42,13 +57,12 @@ ul {
     text-decoration: none;
     color: inherit;
 }
-
+/* tirar quando o link fica roxo após clicar */
 a:link, a:visited {
     color: inherit;
     text-decoration: none;
 }
-
-
+/*estilizando a linha horizontal*/
 hr {
     background-color: rgb(102, 54, 102);
     margin: 30px 10px;
@@ -62,7 +76,7 @@ hr {
     unicode-bidi: isolate;
     overflow: hidden;
 }
-
+/* estilizando o footer*/
 .rodape {
     text-align: center;
     background-color: rgba(83, 48, 90, 0.959);
@@ -73,24 +87,32 @@ hr {
     margin-top: 30px;
     margin-bottom: 0;
 }
-
+/* configurnado as imagens do código*/
 #imagemPrincipal {
     width: 100%;
     max-height: 500px;
     object-fit: cover;
 }
-
-.titulos {
-    margin: 60px;
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 50px;
+.imagens2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 30px;
+    padding-bottom: 500px;
+    display: block;
 }
-
+.ftoVinhos {
+    margin: 50px;
+    padding: 40px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*configurnado o article*/
 article {
     display: block
 }
-
+/*configurando o texto da historia*/
 #historia p {
     font-size: 17.7px;
     line-height: 1.8;
@@ -101,37 +123,14 @@ article {
     margin-right: 80px;
 }
 
-.imagens2 {
-    margin-left: auto;
-    margin-right: auto;
-    margin: 30px;
-    padding-bottom: 500px;
-    display: block;
-}
-
+/*ajustando o texto do cqarrinho*/
 #txtCarrinho {
     margin: 10px;
     padding: 10px;
 }
 
-#subtitulo {
-    margin: 50px;
-    padding: 3px;
-    font-size: 30px;
-    background-color: rgb(245, 238, 228);
-    line-height: 0.2px;
-    text-align: center;
-}
 
-.ftoVinhos {
-    margin: 50px;
-    padding: 40px;
-    width: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
+/*ajeitando ambos os botões que foram usados*/
 .botaoCompra {
     display: block;
     background-color: #8b0000;
@@ -152,6 +151,7 @@ article {
     margin-right: auto;
     font-weight: bold;
 }
+/*estilizando o enfio do form na parte do contato*/
 form {
     display: block;
     margin: 50px;
@@ -169,7 +169,7 @@ form {
     margin-right: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+/*estilizando a tabela usada*/
 .tabelas,.tabelas th,.tabelas td {
     padding: 8px;
     border-collapse: collapse;
