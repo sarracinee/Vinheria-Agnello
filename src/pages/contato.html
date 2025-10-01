@@ -26,9 +26,10 @@
 <main>
     <div>
         <section>
-            <form action="./paginaDeCompra.html" class="contato">
+            <form action="sucesso.html" class="contato">
                 <fieldset>
                 <legend> <h3>Formúlario de Clientes </h3></legend>
+                <br>
                 <br>
                 <label for="nome"> Nome:</label>
                 <br>
@@ -36,10 +37,8 @@
                 <input type="text" name="nome" placeholder="Insira seu nome" required>
                 <br>
                 <br>
-                <br>
                 <label for="nome"></label>
                 <input type="text" name="sobrenome" placeholder="Insira seu sobrenome" required>
-                <br>
                 <br>
                 <br>
                 <span>Mais dados:</span>
@@ -49,18 +48,24 @@
                 <input type="text" name="email" placeholder="Insira seu email" required>
                 <br>
                 <br>
-                <br>
                 <label for="telefone"></label>
                 <input type="text" name="telefome" placeholder="Insira seu telefone" required>
-                <br>
                 <br>
                 <br>
                 <label for="duvida"></label>
                 <input type="text" name="duvida" placeholder="Insira sua duvida aqui">
                 <br>
                 <br>
+                <span>Sexo:</span>
                 <br>
-                <button type="submit"> Enviar </button>
+                <br>
+                <input type="radio" name="genero" id="M">
+                <span>Masculino</span>
+                <input type="radio" name="genero" id="F">
+                <span>Feminino</span>
+                <input type="radio" name="genero" id="O">
+                <span>Outro</span>
+                <button type="submit" class="botaoCadastro"> Enviar </button>
                 </fieldset>
             </form>
         </section>
